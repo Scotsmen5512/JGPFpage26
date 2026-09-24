@@ -1,0 +1,47 @@
+h1 {
+    color: #1900ff;
+    margin-left:10px
+}
+
+h2 {
+    color: #0e008d;
+    margin-left:30px
+}
+
+h3{
+    color: #0e008d;
+    margin-left:30px
+}
+
+p {
+    font-size:20px;
+    margin-left:50px
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    background-color: #3a09ec;
+
+    border: 2px solid #000000;
+    border-radius: 15px;
+    box-shadow: 0 9px #cfced8;
+}
+
+.button:hover {
+    background-color: #3508d8;
+    box-shadow: 0 7px #cfced8;
+    transform: translateY(2px);
+}
+
+.button:active {
+    background-color: #240497;
+    box-shadow: 0 5px #cfced8;
+    transform: translateY(4px);
+}
